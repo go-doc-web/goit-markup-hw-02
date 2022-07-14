@@ -83,11 +83,12 @@ body {
   color: var(--second-text-color);
 }
 
-.nav-list-link.current {
-  color: var(--hover-link);
-}
 .nav-list-link:hover,
 .nav-list-link:focus {
+  color: var(--hover-link);
+}
+
+.nav-list-link.current {
   color: var(--hover-link);
 }
 
@@ -196,7 +197,41 @@ body {
   color: var(--hover-link);
 }
 
-/* ################################################ */
+/* ---------PAGE-PORTFOLIO---------------------- */
 
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
+/* Filter */
+
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  color: var(--second-text-color);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+
+.filter-btn.active {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+
+/* Portfolio cards */
+
+.cards-list-item .subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.category {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--first-text-color);
+}
