@@ -58,9 +58,6 @@ body {
 /* Section subtitle H3 */
 
 .subtitle {
-  font-weight: 700;
-  line-height: calc(16 / 14);
-  text-transform: uppercase;
   color: var(--second-text-color);
 }
 
@@ -124,7 +121,7 @@ body {
 }
 
 .hero-btn {
-  font-family: 'Roboto';
+  font-family: inherit;
 
   font-weight: 700;
   font-size: 16px;
@@ -143,8 +140,60 @@ body {
 
 /* Peculiarities */
 
+.peculiarities .subtitle {
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+}
+
 .peculiarities-descr {
   line-height: calc(24 / 14);
+}
+
+/* Section Specialization */
+
+/* Section comands */
+
+.team .subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer .logo {
+  color: var(--white-text-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  line-height: calc(24 / 14);
+  color: var(--white-text-color);
+}
+
+.address .contact {
+  line-height: calc(24 / 14);
+  color: var(--footer-link-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--hover-link);
 }
 
 /* ################################################ */
