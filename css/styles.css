@@ -1,8 +1,10 @@
 :root {
   /* Color Var */
+
   --primery-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
+
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --main-title-color: #ffffff;
   --white-text-color: #ffffff;
@@ -22,6 +24,7 @@ body {
   color: var(--first-text-color);
 }
 /* Скрывает элементы с классом visually-hidden */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -41,6 +44,24 @@ body {
 
 .link {
   text-decoration: none;
+}
+/* section title H2 */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+/* Section subtitle H3 */
+
+.subtitle {
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--second-text-color);
 }
 
 /* HEADER */
@@ -86,8 +107,10 @@ body {
 }
 
 /* HERO */
+
 .hero {
   /* Времменный background */
+
   background-color: var(--footer-bg-color);
 }
 .heading {
@@ -116,6 +139,12 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--hover-color-btn);
+}
+
+/* Peculiarities */
+
+.peculiarities-descr {
+  line-height: calc(24 / 14);
 }
 
 /* ################################################ */
