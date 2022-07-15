@@ -17,7 +17,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+
   font-size: 14px;
   letter-spacing: 0.03em;
   background-color: var(--primery-bg-color);
@@ -71,7 +71,7 @@ body {
   color: var(--second-text-color);
 }
 
-.logo span {
+.logo-accent {
   color: var(--accent-color);
 }
 
@@ -174,7 +174,7 @@ body {
   background-color: var(--footer-bg-color);
 }
 
-.footer .logo {
+.footer-logo {
   color: var(--white-text-color);
 }
 
