@@ -211,6 +211,7 @@ body {
 /* Filter */
 
 .filter-btn {
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: calc(26 / 16);
